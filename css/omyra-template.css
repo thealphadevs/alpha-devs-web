@@ -669,7 +669,7 @@ figcaption {
 }
 
 .section.is-hero {
-  height: 800px;
+  height: 700px;
 }
 
 .section.is-hero.flexh-align-center.position-relative.img-hero {
@@ -7606,7 +7606,32 @@ figcaption {
     grid-column-end: span 1;
   }
 }
+/********************.c-grid-services1************************/
+.c-grid-services1 {
+  grid-column-gap: 57px;
+  grid-row-gap: 15px;
+  -ms-grid-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 100px;
+}
+/************************Responsive starts***************************/
+@media (max-width: 767px){
+.c-grid-services1 {
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  margin: 0px;
+}
+}
+@media (max-width: 991px)
+{
+.c-grid-services1 {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    margin: 0px;
+}
+}
 
+/* *******************responsive ends of c-grid-services1**************** */
 @font-face {
   font-family: 'Fa brands 400';
   src: url('../fonts/fa-brands-400.woff2') format('woff2'), url('../fonts/fa-brands-400.eot') format('embedded-opentype'), url('../fonts/fa-brands-400.woff') format('woff'), url('../fonts/fa-brands-400.ttf') format('truetype'), url('../fonts/fa-brands-400.svg') format('svg');
