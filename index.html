@@ -4,9 +4,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Alpha-Devs</title>
-  <meta content="Omyra — Multipurpose Digital Agency HTML Template" property="og:title">
+  <title>AlphaDevs</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/components.css" rel="stylesheet" type="text/css">
   <link href="css/omyra-template.css" rel="stylesheet" type="text/css">
@@ -40,26 +40,18 @@
   <header class="navigation-section position-absolute is-transparent">
     <div class="navigation-overlay"></div>
     <div class="navigation-and-offcanvas">
-      <div class="col lg-2 no-margin-bottom-lg md-basis-auto"><a href="index.html#" class="brand w-inline-block"><img
-            src="images/alpha.jpg" alt=""></a></div>
+      <div class="col lg-2 no-margin-bottom-lg md-basis-auto"><a href="index.html#" class="brand w-inline-block">
+          <img src="images/alpha.jpg" alt=""></a>
+      </div>
       <div class="col lg-12 no-margin-bottom-lg lg-text-align-right md-basis-auto md-margin-bottom-small">
         <div class="inline-block position-relative">
           <nav class="navigation-menu flexh-justify-center position-relative"><a href="index.html#"
-              class="c-nav__link">Home</a><a href="about-us.html" class="c-nav__link">Our Services</a>
+              class="c-nav__link">Home</a>
+            <a href="about-us.html" class="c-nav__link">Our Services</a>
 
             <a href="contact-us.html" class="c-nav__link">Contact Us</a>
-            <div data-hover="1" data-delay="0" data-w-id="5fdb8a12-9519-42e0-9c63-f85cfbd14533"
-              class="c-nav_dropdown w-dropdown">
-              <div class="nav-dropdown-toggle w-dropdown-toggle">
-                <a href="index.html#" class="nav-link-block w-inline-block">
-                  <div>Community</div>
-                  <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-                </a>
-              </div>
-              <nav class="c-dropdown w-dropdown-list"><a href="portfolio-detail.html"
-                  class="c-dropdown__link w-dropdown-link">Single Portfolio</a><a href="single-post.html"
-                  class="c-dropdown__link w-dropdown-link">Single Post</a></nav>
-            </div>
+
+            <a href="pricing.html" class="c-nav__link">Pricing</a>
           </nav>
         </div>
       </div>
@@ -138,43 +130,151 @@
           maintenance, graphics, marketing, and everything in between!</div>
       </div>
     </div>
-    <div class="container is-fullwidth padding-left padding-right">
+    <div class="container padding-left padding-right c-service-container">
       <div class="col lg-12 padding-left-right">
-        <div class="w-layout-grid c-grid-services">
-          <div class="c-grid-services__item"><img src="images/iot.png" width="128" alt="" class="margin-bottom">
-            <h3>Website and Mobile app Development</h3>
-            <div class="margin-bottom">We provide complete start to end development for both websites and mobile apps.
+        <div class="row">
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 d-md-flex mb-5">
+            <div class="card c-service-card">
+              <div class="card-body">
+                <h3>
+                  Website and Mobile app Development
+                </h3>
+                <hr>
+                <div class="c-services-content">
+                  <ul>
+                    <li> E-Commerce Apps </li>
+                    <li> E-Commerce Website </li>
+                    <li> ERPs : Enterprise resource planning systems </li>
+                    <li> CMS : Content Management Systems </li>
+                    <li> Static /Dynamic Portfolios </li>
+                    <li> Blogs </li>
+                    <li> LMS: Learning Management systems </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-          <div data-w-id="26c3a647-0233-582b-5d9a-3ec60d35adbd" class="c-grid-services__item"><img src="images/api.png"
-              width="128" alt="" class="margin-bottom">
-            <h3>APIs and Webkits</h3>
-            <div class="margin-bottom">We provide complete start to end development for API and Webkit development
-              services as well.</div>
-          </div>
-          <div class="c-grid-services__item"><img src="images/1.png" width="128" alt="" class="margin-bottom">
-            <h3>IoT Solutions</h3>
-            <div class="margin-bottom">We also work in the domain of IoT and cover everything from cloud services to
-              deployment.</div>
-          </div>
-          <div class="c-grid-services__item"><img src="images/maintain.png" width="128" alt="" class="margin-bottom">
-            <h3>Maintenance/Deployment Solutions</h3>
-            <div class="margin-bottom">We offer website maintenance and deployment services.</div>
-          </div>
-          <div class="c-grid-services__item "><img src="images/cloud.png" width="128" alt="" class="margin-bottom">
-            <h3>Database and Cloud Solutions</h3>
-            <div class="margin-bottom"> We work on elevating the existing platforms to newer technologies by providing
-              cloud and database solutions.</div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 d-md-flex mb-5">
+            <div class="card c-service-card">
+              <div class="card-body">
+                <h3>
+                  Maintenance/Deployment Solutions
+                </h3>
+                <hr>
+                <div class="c-services-content">
+                  <p>
+                    For your already existing websites, we provide support for:-
+                  </p>
 
+                  <ul>
+                    <li> Building new APIs </li>
+                    <li> Adding new features </li>
+                    <li> Providing Short/Long term maintenance support </li>
+                    <li> Deploying websites/Apps/Desktop Apps etc. </li>
+                    <li> Redesigning your existing Products </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="c-grid-services__item"><img src="images/iot.png" width="128" alt="" class="margin-bottom">
-            <h3>AI/ML Solutions</h3>
-            <div class="margin-bottom">Similar, to elevating platforms using cloud solutions, we also provide AI & ML
-              solutions to create more cutting edge and innovative products.</div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 d-md-flex mb-5">
+            <div class="card c-service-card">
+              <div class="card-body">
+                <h3>
+                  UI UX and Designing
+                </h3>
+                <hr>
+                <div class="c-services-content">
+                  <p>
+                    We have a team of designers from a variety of backgrounds providing services like:
+                  </p>
+                  <ul>
+
+                    <li> Website Designing </li>
+                    <li> App Designing </li>
+                    <li> Wireframing </li>
+                    <li> Prototyping </li>
+                    <li> End to End Product Designing </li>
+                    <li> Brand Brand Creation (From fonts to assets! Everything is covered.) </li>
+
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 d-md-flex mb-5">
+            <div class="card c-service-card">
+              <div class="card-body">
+                <h3>
+                  UI UX and Designing
+                </h3>
+                <hr>
+                <div class="c-services-content">
+                  <p>
+                    In the age where everything is data driven, we provide a wide variety of services like:
+                  </p>
+
+                  <ul>
+                    <li> Analytics Dashboards </li>
+                    <li> Data Monitoring </li>
+                    <li> Complex Data driven Analysis (ML) </li>
+                    <li> Machine Learning </li>
+                    <li> Artificial Intelligence </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 d-md-flex mb-5">
+            <div class="card c-service-card">
+              <div class="card-body">
+                <h3>
+                  IoT: Internet of Things
+                </h3>
+                <hr>
+                <div class="c-services-content">
+
+                  <ul>
+                    <li> IoT Business Solutions </li>
+                    <li> IoT Home Solutions </li>
+                    <li> IoT Product development </li>
+                    <li> IoT Maintenance </li>
+                    <li> And any custom IoT centric requirements you might have! </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 d-md-flex mb-5">
+            <div class="card c-service-card">
+              <div class="card-body">
+                <h3>
+                  Digital Marketing & SEO
+                </h3>
+                <hr>
+                <div class="c-services-content">
+
+                  <ul>
+                    <li> Creating Sitemaps </li>
+                    <li> Increasing website ranking and visibility on Google </li>
+                    <li> Adding SEO keywords to the website </li>
+                    <li> Increasing Brand reach through Social Media marketing </li>
+                    <li> Content driven Marketing </li>
+
+                  </ul>
+
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <img class="c-service-img d-none d-xl-block" src="./images/servicies.svg" alt="">
   </div>
 
 
@@ -255,7 +355,7 @@
 
 
 
-  <div class="section position-relative overflow-hidden no-padding-bottom">
+  <div class="section position-relative overflow-hidden no-padding-bottom process-section pb-5 mb-5">
     <div class="c-shadowing-text is-smaller">our process</div>
     <div class="container margin-bottom">
       <div class="col text-align-center block-centered lg-8 md-12">
@@ -268,8 +368,8 @@
       <div class="c-step-decoration__left"></div>
       <div
         class="col lg-6 md-12 order-first flexh-align-center padding-top-bottom-double no-margin-bottom-lg flexh-space-between position-relative">
-        <div class="c-step">01</div><img src="images/step1.svg" width="128" alt=""><img src="images/Arrow-Right.svg"
-          alt="" class="c-arrow-right hidden-md">
+        <div class="c-step">01</div><img src="images/step1.svg" width="128" alt="">
+        <!-- <img src="images/Arrow-Right.svg" alt="" class="c-arrow-right hidden-md"> -->
       </div>
       <div class="col lg-7 md-12 alignself-center no-margin-bottom-lg">
         <h3>Project Definition</h3>
@@ -288,15 +388,16 @@
       <div
         class="col lg-6 md-12 order-first flexh-align-center flexh-space-between padding-top-bottom-double no-margin-bottom-lg position-relative">
         <img src="images/step2.svg" width="128" alt="" class="margin-right">
-        <div class="c-step">02</div><img src="images/Arrow-Left.svg" alt="" class="c-arrow-left hidden-md">
+        <div class="c-step">02</div>
+        <!-- <img src="images/Arrow-Left.svg" alt="" class="c-arrow-left hidden-md"> -->
       </div>
     </div>
     <div class="container margin-bottom-double position-relative padding-top-bottom-double">
       <div class="c-step-decoration__left"></div>
       <div
         class="col lg-6 md-12 order-first flexh-align-center padding-top-bottom-double no-margin-bottom-lg flexh-space-between position-relative">
-        <div class="c-step">03</div><img src="images/step3.svg" width="128" alt=""><img src="images/Arrow-Right.svg"
-          alt="" class="c-arrow-right hidden-md">
+        <div class="c-step">03</div><img src="images/step3.svg" width="128" alt="">
+        <!-- <img src="images/Arrow-Right.svg" alt="" class="c-arrow-right hidden-md"> -->
       </div>
       <div class="col lg-7 md-12 alignself-center no-margin-bottom-lg">
         <h3>Visual Design</h3>
@@ -315,14 +416,15 @@
       <div
         class="col lg-6 md-12 order-first flexh-align-center flexh-space-between padding-top-bottom-double no-margin-bottom-lg position-relative">
         <img src="images/step4.svg" width="128" alt="" class="margin-right">
-        <div class="c-step">04</div><img src="images/Arrow-Left.svg" alt="" class="c-arrow-left hidden-md">
+        <div class="c-step">04</div>
+        <!-- <img src="images/Arrow-Left.svg" alt="" class="c-arrow-left hidden-md"> -->
       </div>
     </div>
     <div class="container margin-bottom-double position-relative padding-top-bottom-double">
       <div
         class="col lg-6 md-12 order-first flexh-align-center padding-top-bottom-double no-margin-bottom-lg flexh-space-between position-relative">
-        <div class="c-step">05</div><img src="images/step5.svg" width="128" alt=""><img src="images/Arrow-Right.svg"
-          alt="" class="c-arrow-right hidden-md">
+        <div class="c-step">05</div><img src="images/step5.svg" width="128" alt="">
+        <!-- <img src="images/Arrow-Right.svg" alt="" class="c-arrow-right hidden-md"> -->
       </div>
       <div class="col lg-7 md-12 alignself-center no-margin-bottom-lg">
         <h3>Site Testing</h3>
@@ -342,13 +444,15 @@
       <div
         class="col lg-6 md-12 order-first flexh-align-center flexh-space-between padding-top-bottom-double no-margin-bottom-lg position-relative">
         <img src="images/step6.svg" width="128" alt="" class="margin-right">
-        <div class="c-step">06</div><img src="images/Arrow-Left.svg" alt="" class="c-arrow-left hidden-md">
+        <div class="c-step">06</div>
+        <!-- <img src="images/Arrow-Left.svg" alt="" class="c-arrow-left hidden-md"> -->
       </div>
     </div>
     <div class="container position-relative padding-top-bottom-double">
       <div
         class="col lg-6 md-12 order-first flexh-align-center padding-top-bottom-double no-margin-bottom-lg flexh-space-between">
-        <div class="c-step">07</div><img src="images/step7.svg" width="128" alt="">
+        <div class="c-step">07</div>
+        <img src="images/step7.svg" width="128" alt="">
       </div>
       <div class="col lg-7 md-12 alignself-center no-margin-bottom-lg">
         <h3><strong>Site Maintenance</strong></h3>
@@ -358,8 +462,9 @@
       </div>
       <div class="c-step-decoration__left"></div>
     </div>
-    <div data-w-id="76522b63-3af6-c95b-65af-8c485cdf1d9c" class="c-decoration-right hidden-md"><img
-        src="images/bg-decor1.svg" alt="" class="c-decoration-right__image image-decor2"></div>
+    <div data-w-id="76522b63-3af6-c95b-65af-8c485cdf1d9c" class="c-decoration-right hidden-md">
+      <img src="images/bg-decor1.svg" alt="" class="c-decoration-right__image image-decor2">
+    </div>
   </div>
 
   <!-- <div id="layout" class="section position-relative overflow-hidden"> 

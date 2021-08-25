@@ -764,6 +764,10 @@ figcaption {
   margin-bottom: 48px;
 }
 
+.process-section .margin-bottom-double {
+  margin-bottom: 20px;
+}
+
 .navbar {
   width: 100%;
   -webkit-justify-content: space-around;
@@ -1185,8 +1189,8 @@ figcaption {
 }
 
 .padding-top-bottom-double {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .text-xlarge {
@@ -4725,7 +4729,7 @@ figcaption {
 
 .c-step {
   color: #f09d1f;
-  font-size: 180px;
+  font-size: 120px;
   line-height: 1;
   font-weight: 900;
 }
@@ -5385,6 +5389,11 @@ figcaption {
   .margin-bottom-double {
     margin-bottom: 32px;
   }
+
+  .process-section .margin-bottom-double {
+    margin-bottom: 48px;
+  }
+
 
   .flexh-space-between.md-flex-vertical {
     -webkit-box-orient: vertical;
@@ -7916,6 +7925,174 @@ figcaption {
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
+}
+
+/********************.c-services-card************************/
+
+
+.c-service-card {
+  background-color: #fff;
+  box-shadow: 8px 8px 65px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.c-service-card:hover {
+  border: 1px solid #ffb158;
+}
+
+.c-service-card h3 {
+  padding: 1.5rem 1rem;
+  margin: 0;
+}
+
+.c-service-card hr {
+  border: 1px solid #ffb158;
+  margin: 0;
+}
+
+.c-service-card p {
+  margin: 0.5rem;
+}
+
+.c-service-card .c-services-content {
+  padding: 1.5rem 0.5rem;
+}
+
+@media(min-width: 1199.98px) {
+  .c-service-container {
+    max-width: 1100px;
+  }
+}
+
+@media(min-width:991px) {
+  .c-service-card h3 {
+    min-height: 110px;
+  }
+}
+
+.c-service-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 200px;
+}
+
+/********************.c-hero-pricing************************/
+.c-hero-pricing {
+  padding: 10rem 0;
+}
+
+.price-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+}
+
+.price-card {
+  position: relative;
+  background-color: #333335;
+  background-image: url('../images/price-bg.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 20% 120%;
+  color: #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.price-card .badge {
+  position: absolute;
+  top: 20px;
+  right: 28px;
+  background-color: #636363;
+  color: #FFFFFF;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  font-weight: 300;
+}
+
+.price-card .card-body {
+  padding: 4rem 3rem;
+}
+
+.price-card .card-body p {
+  margin-bottom: 0.5rem;
+}
+
+.price-card .card-body ul {
+  padding-left: 1.5rem;
+}
+
+.price-switch-area .nav-link {
+  padding: 1rem;
+}
+
+.price-switch-area .nav-link small {
+  font-size: 60%;
+}
+
+.price-switch-area .nav-pills .nav-link {
+  border: 1px solid #333335;
+  margin: 0.5rem 0;
+  color: #333335;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  position: relative;
+  background-color: #DA2B74;
+  color: #fff;
+  min-height: 72px;
+  border: 1px solid transparent !important;
+}
+
+
+.nav-pills .nav-link.active::before {
+  content: '';
+  position: absolute;
+  top: 15%;
+  right: -15px;
+  height: 50px;
+  width: 50px;
+  background-color: #DA2B74;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.btn-theme {
+  background-color: #DA2B74;
+  color: #fff;
+  padding: 1rem 1rem;
+  border: 1px solid #DA2B74;
+}
+
+.btn-theme:hover {
+  background-color: #bb2161;
+  color: #fff;
 }
 
 /********************.c-grid-services1************************/
