@@ -1,0 +1,41 @@
+.display-on-desktop {
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .display-on-desktop {
+    display: none;
+  }
+}
+
+.price-img {
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .price-img {
+    display: none;
+  }
+}
+
+.display-on-tablet {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .display-on-tablet {
+    display: block;
+  }
+}
+
+@media (max-width: 991px) {
+  .process-step-3 {
+    margin-top: 1rem;
+  }
+}
+
+.process-step-3 .marker-2:nth-of-type(2),
+.process-step-3 .marker-1 {
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

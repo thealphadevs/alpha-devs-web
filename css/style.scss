@@ -1,0 +1,34 @@
+.display-on-desktop {
+    display: block;
+
+    @media(max-width: 991px) {
+        display: none;
+    }
+}
+
+.price-img {
+    display: block;
+
+    @media(max-width: 991px) {
+        display: none;
+    }
+}
+
+.display-on-tablet {
+    display: none;
+
+    @media(max-width: 991px) {
+        display: block;
+    }
+}
+
+.process-step-3 {
+    @media(max-width: 991px) {
+        margin-top: 1rem;
+    }
+
+    .marker-2:nth-of-type(2),
+    .marker-1 {
+        margin-top: 1rem;
+    }
+}

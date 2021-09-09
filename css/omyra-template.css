@@ -8191,3 +8191,163 @@ figcaption {
   font-weight: 300;
   font-style: normal;
 }
+
+
+/* BUTTON */
+.btn-theme-home {
+  background-color: #F09E3E;
+  padding: 0.75rem 2rem;
+  display: inline-block;
+  color: #fff;
+}
+
+.btn-theme-home:hover {
+  color: #fff;
+  background-color: #df9138;
+}
+
+/* PROCESS */
+
+.process-box {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.marker {
+  margin-bottom: 2rem;
+}
+
+.marker h4 {
+  font-size: 1.25rem;
+}
+
+.marker p {
+  font-size: 0.9rem;
+}
+
+.marker-1 {
+  max-width: 100%;
+  background-color: #fff;
+}
+
+.marker-2 {
+  display: flex;
+  max-width: 100%;
+  margin-left: 0;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.marker-1 img,
+.marker-2 img {
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.process-step-2 {
+  justify-content: flex-end;
+}
+
+.process-step-2 .marker-2 {
+  margin-left: 0;
+}
+
+.process-step-2 .marker-2:nth-of-type(1) {
+  margin-top: 0.5rem;
+}
+
+.process-step-3 {
+  margin-top: 3rem;
+  justify-content: space-between;
+}
+
+.process-step-3 .marker-2 {
+  margin-left: 0;
+}
+
+.process-step-3 .marker-2:nth-of-type(2) {
+  margin-top: 9rem;
+}
+
+.process-step-3 .marker-1 {
+  margin-top: 9rem;
+  width: 300px;
+}
+
+@media(min-width: 991.98px) {
+
+  .process-box {
+    flex-direction: row;
+    margin-bottom: 4rem;
+  }
+
+  .marker-1 {
+    max-width: 340px;
+  }
+
+  .marker-2 {
+    max-width: 450px;
+    margin-left: 4rem;
+    flex-direction: row;
+  }
+
+  .marker-1 img {
+    padding: 0;
+    ;
+  }
+
+  .process-step-2 .marker-2:nth-of-type(1) {
+    margin-top: 9rem;
+  }
+}
+
+
+.panel-group .panel {
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #EEEEEE;
+}
+
+.panel-default>.panel-heading {
+  padding: 0;
+  border-radius: 0;
+  color: #212121;
+  background-color: #FAFAFA;
+  border-color: #EEEEEE;
+}
+
+.panel-title {
+  font-size: 14px;
+}
+
+.panel-title>a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  border: 1px solid #333335;
+  margin: 0.5rem 0;
+  color: #333335;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.more-less {
+  float: right;
+  color: #212121;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+  border-top-color: #EEEEEE;
+}
+
+/* ----- v CAN BE DELETED v ----- */
+
+.demo {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
