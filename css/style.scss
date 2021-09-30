@@ -91,8 +91,8 @@
 
 .box-2 {
     position: absolute;
-    bottom: 15.9%;
     left: 19%;
+    bottom: 12.4%;
     width: 49.25%;
     height: 350px;
     margin: auto;
@@ -103,14 +103,14 @@
     border-bottom-left-radius: 20px;
 
     @media(max-width: 1199px) {
-        bottom: 12.8%;
+        bottom: 9%;
         left: 13%;
         width: 58%;
         height: 400px;
     }
 
     @media(max-width: 1024px) {
-        bottom: 18%;
+        bottom: 14.8%;
         left: 14.75%;
         width: 49%;
         height: 400px;
@@ -123,4 +123,31 @@
 
 .btn-outline-dark {
     background: #fff;
+}
+
+@font-face {
+    font-family: 'run-medium';
+    src: url("../fonts/Run-Medium/run.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-run-medium {
+    font-family: run-medium,
+        sans-serif;
+}
+
+.c-service-card {
+    position: relative;
+    overflow: hidden;
+
+    .c-services-content {
+        .bg-image {
+            width: 200px;
+            position: absolute;
+            bottom: 10px;
+            right: -10px;
+            opacity: .15;
+        }
+    }
 }
