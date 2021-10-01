@@ -156,11 +156,23 @@
     position: fixed !important;
 }
 
-.brand,
-.brand-2 {
+.font-colored {
+    color: #000 !important;
 
-    &:hover {
-        color: #f09d1f;
-        text-decoration: none;
+    span {
+        color: #DB3A74 !important;
     }
 }
+
+.button-primary:hover {
+    color: #fff !important;
+}
+
+// .brand,
+// .brand-2 {
+
+//     &:hover {
+//         color: #f09d1f;
+//         text-decoration: none;
+//     }
+// }

@@ -171,9 +171,15 @@
   position: fixed !important;
 }
 
-.brand:hover,
-.brand-2:hover {
-  color: #f09d1f;
-  text-decoration: none;
+.font-colored {
+  color: #000 !important;
+}
+
+.font-colored span {
+  color: #DB3A74 !important;
+}
+
+.button-primary:hover {
+  color: #fff !important;
 }
 /*# sourceMappingURL=style.css.map */
