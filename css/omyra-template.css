@@ -8273,7 +8273,7 @@ figcaption {
 
 .process-step-3 .marker-1 {
   margin-top: 9rem;
-  width: 300px;
+  width: 100%;
 }
 
 @media(min-width: 991.98px) {
@@ -8300,6 +8300,26 @@ figcaption {
 
   .process-step-2 .marker-2:nth-of-type(1) {
     margin-top: 9rem;
+  }
+
+  .process-step-3 .marker-1 {
+    margin-top: 9rem;
+    width: 300px;
+  }
+
+}
+
+.marker-2,
+.marker-1 {
+  text-align: left;
+}
+
+@media(max-width: 991px) {
+
+  .marker-2,
+  .marker-1 {
+    display: block;
+    text-align: center;
   }
 }
 
