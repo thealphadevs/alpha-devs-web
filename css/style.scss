@@ -65,8 +65,8 @@
 
 .box-1 {
     position: absolute;
-    top: 28.5%;
-    left: 20%;
+    top: 41.5%;
+    left: 24%;
     width: 49.25%;
     height: 550px;
     margin: auto;
@@ -77,11 +77,11 @@
     border-bottom-right-radius: 20px;
 
     @media(max-width: 1199px) {
-        width: 53%;
+        width: 49%;
     }
 
     @media(max-width: 1024px) {
-        width: 48%;
+        width: 44%;
     }
 
     @media(max-width: 991px) {
@@ -91,9 +91,9 @@
 
 .box-2 {
     position: absolute;
-    left: 19%;
-    bottom: 14.7%;
-    width: 49.25%;
+    left: 13%;
+    bottom: 39.7%;
+    width: 59%;
     height: 350px;
     margin: auto;
     border: 1px solid rgb(34, 34, 34);
@@ -103,16 +103,16 @@
     border-bottom-left-radius: 20px;
 
     @media(max-width: 1199px) {
-        bottom: 11.5%;
+        bottom: 29.1%;
         left: 13%;
         width: 58%;
         height: 400px;
     }
 
     @media(max-width: 1024px) {
-        bottom: 18%;
+        bottom: 46.7%;
         left: 14.75%;
-        width: 49%;
+        width: 52%;
         height: 400px;
     }
 
@@ -149,5 +149,18 @@
             right: -10px;
             opacity: .15;
         }
+    }
+}
+
+.fixed-top {
+    position: fixed !important;
+}
+
+.brand,
+.brand-2 {
+
+    &:hover {
+        color: #f09d1f;
+        text-decoration: none;
     }
 }
